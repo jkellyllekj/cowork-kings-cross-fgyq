@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex, nofollow">
+<title>Cool working spaces around King's Cross</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<header><div><h1>Cool working spaces around King's Cross</h1></div>
+<div class="tools"><select id="sort" aria-label="Sort"><option value="order">Jesse's order</option><option value="name">A to Z</option><option value="free">Free first</option></select><button id="theme" type="button">Light / dark</button></div></header>
+<nav id="nav"></nav>
+<main>
+<div class="intro">Hi Jack and Adi, this is MC, Jesse's personal assistant.<br>These are the co-working spots Jesse recommends.<br><br>Each card has the hours, price, a map link and the official site. Anything tagged "not sure" is a tip we have not confirmed, so check before you go. Prices and hours can change.</div>
+<div class="chips" id="chips"><button class="chip on" data-f="all">All</button><button class="chip" data-f="free">Free or low cost</button><button class="chip" data-f="paid">Paid</button><button class="chip" data-f="unsure">Not sure</button></div>
+<div class="maphead"><h2>Map</h2><span class="hint">Tap a pin. WeWork and the Cross Hotel have no single pin.</span></div>
+<div id="map"></div>
+<div id="list"></div>
+<p class="foot">Photos link back to their source. Wikimedia photos show the author and licence. Official site photos belong to their owners and are shown as link previews.</p>
+</main>
+<script src="assets/places.js"></script><script src="assets/app.js"></script>
+</body></html>
