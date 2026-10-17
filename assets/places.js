@@ -34,9 +34,9 @@ site:"https://www.thersa.org/rsa-house/reopening",maps:"https://www.google.com/m
 line:"Jesse guesses UCL has a library you can sit in. External users can register online, but it is not walk in, so check first.",
 site:"https://www.ucl.ac.uk/library/using-library/membership-services/external-users",maps:"https://www.google.com/maps/search/?api=1&query=UCL+Library+London",lat:51.52386,lng:-0.13413,
 photos:[{src:"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/London_UCL_Wilkins_Building_portico_240_20220427_1049.jpg/960px-London_UCL_Wilkins_Building_portico_240_20220427_1049.jpg",credit:"Karlunun, Wilkins Building portico",url:"https://commons.wikimedia.org/wiki/File:London_UCL_Wilkins_Building_portico_240_20220427_1049.jpg",lic:"CC BY-SA 4.0, Wikimedia Commons"}]},
-{id:"wework",name:"WeWork",area:"Several London sites",station:"Depends on site (one is in Kings Place)",address:"Many locations, pick one on the site",hours:"Varies by site",price:"Membership from about 289 a month (WeWork). Jesse's yearly deal is about 300. Day pass from about 40.",free:false,unsure:false,
-line:"Team plans available. Jesse gets 3 free days a month on his Revolut plan, and the 12 pound Premium plan gives 1 free day. Many places also let you try a day free or a two week trial, so cancel if you don't want to pay.",
-site:"https://www.wework.com/en-GB/l/london",maps:"https://www.google.com/maps/search/?api=1&query=WeWork+London",lat:null,lng:null,photos:[]},
+{id:"wework",name:"WeWork",area:"Several London sites",station:"Depends on site (one is in Kings Place)",address:"Many locations, pick one on the site",hours:"Varies by site",price:"About 300 a month, on a yearly deal only.",free:false,unsure:false,
+line:"You can get some passes through Revolut.",
+site:"https://www.wework.com/",siteLabel:"WeWork website",maps:"https://www.google.com/maps/search/?api=1&query=WeWork+London",lat:null,lng:null,photos:[]},
 {id:"camden",name:"Camden Collective",area:"Camden Town",station:"Camden Town, Camden Road",address:"Collective Auction Rooms, 5-7 Buck Street, London NW1 8NJ (check it is still open)",hours:"Not confirmed",price:"Free hot desking for young creatives (charity)",free:true,unsure:true,
 line:"Jesse applied and never heard back. They are a charity offering free hot desks and cheap offices for young creative start ups. Could suit you lot.",
 site:"https://camdencollective.co.uk",maps:"https://www.google.com/maps/search/?api=1&query=Camden+Collective+London",lat:51.54060,lng:-0.14302,photos:[]}

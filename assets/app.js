@@ -10,7 +10,7 @@ function card(p){
  (p.unsure?'<span class="tag unsure">not sure</span>':'')+'<span class="tag">'+(p.free?'free or low cost':'paid')+'</span><span class="tag">'+esc(p.area)+'</span>'+
  photos(p)+
  '<dl><dt>Address</dt><dd>'+esc(p.address)+'</dd><dt>Nearest</dt><dd>'+esc(p.station)+'</dd><dt>Hours</dt><dd>'+esc(p.hours)+'</dd><dt>Price</dt><dd>'+esc(p.price)+'</dd></dl>'+
- '<p class="line">'+esc(p.line)+'</p><div class="btns"><a href="'+esc(p.maps)+'" target="_blank" rel="noopener">Open in Google Maps</a>'+(p.site?'<a class="alt" href="'+esc(p.site)+'" target="_blank" rel="noopener">Official website</a>':'')+'</div></article>';
+ '<p class="line">'+esc(p.line)+'</p><div class="btns"><a href="'+esc(p.maps)+'" target="_blank" rel="noopener">Open in Google Maps</a>'+(p.site?'<a class="alt" href="'+esc(p.site)+'" target="_blank" rel="noopener">'+esc(p.siteLabel||'Official website')+'</a>':'')+'</div></article>';
 }
 function render(){
  var a=P.filter(function(p){return filter==='all'||(filter==='free'&&p.free)||(filter==='paid'&&!p.free)||(filter==='unsure'&&p.unsure)});
