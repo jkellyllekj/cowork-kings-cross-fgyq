@@ -9,7 +9,7 @@ function card(p){
  return '<article class="card" id="'+p.id+'"><h2>'+esc(p.name)+'</h2>'+
  (p.unsure?'<span class="tag unsure">not sure</span>':'')+'<span class="tag">'+(p.free?'free or low cost':'paid')+'</span><span class="tag">'+esc(p.area)+'</span>'+
  photos(p)+
- '<dl><dt>Address</dt><dd>'+esc(p.address)+'</dd><dt>Nearest</dt><dd>'+esc(p.station)+'</dd><dt>Hours</dt><dd>'+esc(p.hours)+'</dd><dt>Price</dt><dd>'+esc(p.price)+'</dd></dl>'+
+ '<dl><dt>Address</dt><dd>'+esc(p.address)+'</dd><dt>Nearest</dt><dd>'+esc(p.station)+'</dd><dt>Hours</dt><dd>'+esc(p.hours)+'</dd><dt>Price</dt><dd>'+esc(p.price)+'<br><small class="pn">Prices may not be up to date, check the website.</small></dd></dl>'+
  '<p class="line">'+esc(p.line)+'</p><div class="btns"><a href="'+esc(p.maps)+'" target="_blank" rel="noopener">Open in Google Maps</a>'+(p.site?'<a class="alt" href="'+esc(p.site)+'" target="_blank" rel="noopener">'+esc(p.siteLabel||'Official website')+'</a>':'')+'</div></article>';
 }
 function render(){
